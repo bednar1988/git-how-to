@@ -12,3 +12,8 @@ git merge - used to merge two branches, first switch to the branch that you want
 git rebase - similiar to merge, but works like replaying the changes from other branch not merging the final result
 git revert - reverts the changes, "git revert HEAD" reverts last commit, "git revert HEAD~2" reverts last-2 commits
 git diff - shows difference between commits, or current working tree and last commit
+git clone - clone either local or remote repository
+git fetch - fetch changes but do not apply them to local repo
+git pull - pull changes to local repo
+git push - push changes to remote repo/origin "git push -u origin master" - push local master to originating repo
+git remote - show origin, -v
