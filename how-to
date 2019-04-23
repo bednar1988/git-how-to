@@ -4,3 +4,10 @@ git init path - make new git repo, path may exist or not
 git add - add file to git, needs to be made to every new file and after each change
 git rm - remove file from project
 git status - show status of files in your repo, -s for short, -v for verbose
+git log - view commit log
+git commit - commits the changes, -m add comment while commiting, -a include all modified files 
+git branch - creates a new branch, -d deletes branch
+git checkout branch_name - switches to another branch, git status can show which branch are you on
+git merge - used to merge two branches, first switch to the branch that you want to merge into
+git rebase - similiar to merge, but works like replaying the changes from other branch not merging the final result
+git revert - reverts the changes, "git revert HEAD" reverts last commit, "git revert HEAD~2" reverts last-2 commits
