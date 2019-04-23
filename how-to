@@ -1,1 +1,6 @@
-fucked up how-to file
+git config --global user.name/user.email/core.editor -> this works for all project
+git config (without global) - use in repository to make configuration only for this repository
+git init path - make new git repo, path may exist or not
+git add - add file to git, needs to be made to every new file and after each change
+git rm - remove file from project
+git status - show status of files in your repo, -s for short, -v for verbose
